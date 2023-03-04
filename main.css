@@ -12,7 +12,7 @@ body {
 .navbar {
     background-color: rgb(27, 25, 22);
     left: 0;
-    padding: 0.75rem 1.5rem;
+  /*   padding: 0.75rem 1.5rem; */
     position: fixed;
     top: 0;
     width: 100%;
@@ -20,12 +20,13 @@ body {
 
 .navbar li {
     display: inline-block;
+    padding-top: 1rem;
 }
 
 .navbar a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.7rem;
     font-weight: 700;
     text-decoration: none;
     
@@ -36,29 +37,48 @@ body {
     margin-left: 3rem;
   }
 
+  #monsanto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 250, 250);
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 31px rgb(122, 122, 122) ;
+    text-decoration: none;
+    
+
+  }
+
   i {
     color: white;
     padding: 1rem;
   }
 
-
-  #carouselExampleCaptions {
-    padding-bottom: 20px;
-    
-  }
-
+  
   h5 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
 
-    
-   
   }
 
 .card-img-top {
   width: 100%;
-  height: 60vh;
+  height: 55vh;
   object-fit: cover;
+  border-radius: 3%;
+}
+
+
+button a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+button a:visited {
+  color: rgb(255, 255, 255);
+  text-decoration:none;
+  
 }
 
 .footer {
@@ -72,11 +92,93 @@ body {
   padding: 2rem;
 }
 
+.card-title {
+  color: rgb(0, 0, 0);
+  background-size: auto;
+  text-decoration-line: underline;
+  font-weight: bolder;
+  text-shadow: 0 1px 1px rgb(189, 181, 181);
+}
+
 .footer li {
   display: inline-block;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: white;
-  font-size: 0,5em;
+  color: antiquewhite;
+  font-size: 1.1rem;
   text-decoration: none;
+  font-weight: bold;
   padding-right: 2rem;
 }
+
+.footer a {
+  text-decoration: none;
+
+}
+
+.footer a:hover {
+  color: rgb(65, 179, 245);
+  
+}
+
+.footer a:visited {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  background-color: #000000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  padding: 1rem;
+  margin-bottom: 0.5;
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+form {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  vertical-align: top;
+  display: inline-block;
+  width: 30%;
+  padding: 1rem;
+}
+
+#yourname{
+  padding-top: 0.1rem;
+
+}
+
+
+#email {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+#yourmessage {
+  padding-top: 1.5rem;
+  font-style: italic;
+
+}
+
+textarea {
+  height: 300px;
+  width: 400px;
+}
+
+#submit {
+  padding-top: 1rem;
+  font-size: 1rem;
+  
+  
+}
+
+.form {
+  background-image: url(/images/monsanto6.jpg);
+  background-blend-mode:luminosity;
+}
+
+
+
