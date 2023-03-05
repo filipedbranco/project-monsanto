@@ -12,7 +12,6 @@ body {
 .navbar {
     background-color: rgb(27, 25, 22);
     left: 0;
-  /*   padding: 0.75rem 1.5rem; */
     position: fixed;
     top: 0;
     width: 100%;
@@ -21,20 +20,30 @@ body {
 .navbar li {
     display: inline-block;
     padding-top: 1rem;
+    padding-inline: 0.2rem;
 }
 
 .navbar a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 1.7rem;
     font-weight: 700;
     text-decoration: none;
+  
     
     
   }
 
+  .navbar a:hover {
+    color: rgb(255, 247, 202);
+  
+  
+    
+  }
+
+
   .navbar ul > * + * {
-    margin-left: 3rem;
+    margin-left: 1rem;
   }
 
   #monsanto {
@@ -70,6 +79,7 @@ body {
 
 
 button a {
+  color:white;
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
@@ -81,12 +91,6 @@ button a:visited {
   
 }
 
-.footer {
-  background-color: rgb(36, 36, 35);
-  padding: 0.75rem 1.5rem;
-  width: 100%;
-
-}
 
 .card {
   padding: 2rem;
@@ -100,28 +104,44 @@ button a:visited {
   text-shadow: 0 1px 1px rgb(189, 181, 181);
 }
 
-.footer li {
+footer {
+  background-color: rgb(36, 36, 35);
+  padding: 0.75rem 1.5rem;
+  width: 100%;
+  
+
+}
+
+footer li {
+  display: flex;
   display: inline-block;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: antiquewhite;
   font-size: 1.1rem;
   text-decoration: none;
   font-weight: bold;
   padding-right: 2rem;
 }
 
-.footer a {
+footer a {
+  color: white;
   text-decoration: none;
 
 }
 
-.footer a:hover {
-  color: rgb(65, 179, 245);
+footer a:hover {
+  color: rgb(121, 202, 248);
+  
+}
+
+footer a:active {
+  color: rgb(167, 167, 163);
   
 }
 
 .footer a:visited {
+  color: rgb(245, 245, 245);
   text-decoration: none;
+
 }
 
 header {
@@ -131,7 +151,7 @@ header {
   font-weight: bold;
   padding: 1rem;
   margin-bottom: 0.5;
-  font-size: 1.25rem;
+  font-size: 1.45rem;
   color: #ffffff;
 }
 
@@ -141,7 +161,7 @@ form {
   display: flex;
   vertical-align: top;
   display: inline-block;
-  width: 30%;
+  width: 100vh;
   padding: 1rem;
 }
 
@@ -175,7 +195,7 @@ textarea {
   
 }
 
-.form {
+.formpage {
   background-image: url(/images/monsanto6.jpg);
   background-blend-mode:luminosity;
 }
