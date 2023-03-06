@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     height: 100vh;
     background-color: antiquewhite;
@@ -54,9 +55,19 @@ body {
     text-transform: uppercase;
     text-shadow: 2px 1px 31px rgb(122, 122, 122) ;
     text-decoration: none;
-    
 
   }
+
+  #monsanto:hover {
+    text-shadow: 3px 1px 27px rgb(255, 251, 216);
+  }
+  
+  .navbarlink:hover #icon {
+    transform: translateX(13%);
+
+  }
+
+
 
   i {
     color: white;
@@ -144,6 +155,24 @@ footer a:active {
 
 }
 
+#child {
+  height: 30%;
+  width: 20%;
+  padding-right: 1.3rem;
+  color: rgb(255, 255, 255);
+  
+}
+
+.parent:hover #child {
+  transform: translateY(-11%);
+  color:rgb(255, 255, 255);
+
+}
+
+
+
+/* form page */
+
 header {
   width: 100%;
   background-color: #000000;
@@ -154,6 +183,7 @@ header {
   font-size: 1.45rem;
   color: #ffffff;
 }
+
 
 form {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -167,6 +197,7 @@ form {
 
 #yourname{
   padding-top: 0.1rem;
+  width: 300px;
 
 }
 
@@ -174,23 +205,26 @@ form {
 #email {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  width: 300px;
 }
 
 
 #yourmessage {
   padding-top: 1.5rem;
   font-style: italic;
+  
 
 }
 
 textarea {
   height: 300px;
-  width: 400px;
+  width: 300px;
 }
 
 #submit {
   padding-top: 1rem;
   font-size: 1rem;
+  cursor: pointer;
   
   
 }
@@ -199,6 +233,5 @@ textarea {
   background-image: url(/images/monsanto6.jpg);
   background-blend-mode:luminosity;
 }
-
 
 
